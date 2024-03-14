@@ -119,7 +119,6 @@ def run_chrome(b_add_wallets):
     input()
     #driver.close()
 
-
 qty_wallets = int(regexp(r'^\d+$', 'Write number wallets for work: '))
 b_add_wallets = regexp(r'^[yn]$', 'Do You want create New wallets?(y/n) ')
 threads = []
